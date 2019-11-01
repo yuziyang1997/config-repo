@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: microservice-msi-example
+server:
+  port: 7777
+  contextPath: /microservice-msi-example
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs
+eureka: 
+  client: 
+    service-url: 
+      defaultZone: http://discovery:8761/eureka
+
